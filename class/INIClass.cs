@@ -3,7 +3,8 @@ using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Text;
 
-namespace MyProg
+//Change namespace to match your original one, or else reference whatevery you change this one to
+namespace ChangeMe
 {
     class IniFile   // revision 11
     {
