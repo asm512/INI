@@ -14,10 +14,6 @@ You can also:
 > without attribution
 
 
-
-And of course Dillinger itself is open source with a [public repository][dill]
- on GitHub.
-
 ### Usage and examples
 
 Make sure to change the namespace of the class to match your original one
