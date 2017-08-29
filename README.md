@@ -1,5 +1,4 @@
 # easyINI
-# easyINI
 
 
 easyINI is a simple class that can be added to any .NET project, and is used for reading and writing INI files.
