@@ -7,6 +7,9 @@ You can also:
   - Check if a key exists
   - Delete keys
   - Delete sections
+  
+To add:
+  - Get all sections (into array)
 
 
 > Feel free to use this in
