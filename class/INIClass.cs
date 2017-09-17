@@ -4,9 +4,10 @@ using System.Runtime.InteropServices;
 using System.Text;
 
 //Change namespace to match your original one, or else reference whatever you change this one to
+
 namespace ChangeMe
 {
-    class IniFile   // revision 11
+    class IniFile
     {
         string Path;
         string EXE = Assembly.GetExecutingAssembly().GetName().Name;
