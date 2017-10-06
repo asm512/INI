@@ -83,6 +83,6 @@ Deleting keys and sections:
 
 ### Development
 
-Want to contribute? Great!
+Want to contribute?
 
 Feel free to fork this and make any requests for changes in my repository
