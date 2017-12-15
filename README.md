@@ -7,9 +7,10 @@ You can also:
   - Check if a key exists
   - Delete keys
   - Delete sections
+  - Get all sections
   
 To add:
-  - Get all sections (into array)
+  - ~~Get all sections (into array)~~
 
 
 > Feel free to use this in
@@ -24,13 +25,13 @@ Make sure to change the namespace of the class to match your original one
 Declaring an ini file:
 
     //Creates a new INI file in your current dir named after the exe
-    var MyIni = new IniFile();
+    IniFile MyIni = new IniFile();
 
     //Creates an ini file in current dir with specified name
-    var MyIni = new IniFile("settings.ini");
+    IniFile MyIni = new IniFile("settings.ini");
     
     //Creates a new ini file in specified directory
-    var MyIni = new IniFile(@"C:\settings.ini");
+    IniFile MyIni = new IniFile(@"C:\settings.ini");
     
     //Easy start 
     MyIni.Write("Key", "Value", "Section (optional)");
@@ -65,6 +66,8 @@ Reading from INI file:
     int DefaultValue = Convert.ToInt32(MyIni.Read("DefaultValue"));
     
     string username = MyIni.Read("userName");
+    
+    string[] allSections = MyINI.GetSectionNames();
     
 Checking if key exists
     
