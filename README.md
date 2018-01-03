@@ -1,7 +1,7 @@
 # easyINI
 
 
-easyINI is a simple class that can be added to any .NET project, and is used for reading and writing INI files.
+easyINI is a simple class that can be added to any .NET project, and is used for reading and writing INI files using the Windows API.
 
 You can also:
   - Check if a key exists
