@@ -91,7 +91,7 @@ Checking if key exists
     Easy start
     
 ```csharp
-bool keyExist = MyIni.KeyExists("Key", "Section (only state if it's not default one)")
+bool keyExist = MyIni.KeyExists("Key", "Section (only state if it's not default one)");
 
 if(!MyIni.KeyExists("DefaultValue", "VALUES"))
 {
