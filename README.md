@@ -19,10 +19,6 @@ To add:
 
 ### Usage and examples
 
-Make sure to change the namespace of the class to match your original one
-
-Declaring an ini file:
-
 Creates a new INI file in your current dir named after the exe
 ```csharp
 var MyIni = new IniFile();
@@ -105,9 +101,3 @@ Deleting keys and sections:
 MyIni.DeleteKey("DefaultValue", "VALUES");
 MyIni.DeleteSection("VALUES");
 ```
-
-### Development
-
-Want to contribute?
-
-Feel free to fork this and make any requests for changes in my repository
