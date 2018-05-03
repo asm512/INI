@@ -25,16 +25,16 @@ Declaring an ini file:
 
 Creates a new INI file in your current dir named after the exe
 ```csharp
-IniFile MyIni = new IniFile();
+var MyIni = new IniFile();
 ```
 Creates an ini file in current dir with specified name
 ```csharp
-IniFile MyIni = new IniFile("settings.ini");
+var MyIni = new IniFile("settings.ini");
 ```
 
 Creates a new ini file in specified directory
 ```csharp
-IniFile MyIni = new IniFile(@"C:\settings.ini");
+var MyIni = new IniFile(@"C:\settings.ini");
 ```
 
 Easy start
