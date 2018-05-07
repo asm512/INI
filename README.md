@@ -19,7 +19,7 @@ To add:
 
 ### Usage and examples
 
-Creates a new INI file in your current dir named after the exe
+Creates a new INI file in your current dir named after the executing assembly
 ```csharp
 var MyIni = new IniFile();
 ```
